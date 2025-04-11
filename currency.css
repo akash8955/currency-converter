@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("back.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    color: #001d3d;
+}
+
+.container {
+    margin-top: 3rem;
+    border: 3px solid grey;
+    height: 25rem;
+    width: 25rem;
+    padding: 1.2rem;
+    color: #001d3d;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.amount {
+    margin-top: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.amount p {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+
+}
+
+.amount input {
+    width: 60%;
+    font-size: medium;
+    background-color: rgb(227, 217, 217);
+    border: none;
+    border-radius: 0.9rem;
+    padding: 6px;
+}
+
+.dropdown {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.select-container {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    margin: 0.7rem;
+}
+
+.dropdown p {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}
+
+.dropdown img {
+    border-radius: 1rem;
+    height: 3rem;
+    width: 3rem;
+
+}
+
+.dropdown select {
+    height: 2rem;
+    border: none;
+    margin-left: 4px;
+    background-color: rgb(227, 217, 217);
+    cursor: pointer;
+
+}
+
+i {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.msg {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+button {
+    margin-top: 3rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: #003049;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #186087;
+}
+
+/* for responsive */
+@media only screen and (max-width:490px) {
+    .container {
+        width: 15rem;
+    }
+
+    .amount p {
+        font-size: 14px;
+        margin-right: 4px;
+        font-weight: 550;
+    }
+
+    .amount input {
+        font-size: 14px;
+        padding: 3px;
+    }
+    .dropdown p{
+        margin-left: -2rem;
+    }
+    .select-container{
+        width: 4rem;
+    }
+    
+
+}
+
